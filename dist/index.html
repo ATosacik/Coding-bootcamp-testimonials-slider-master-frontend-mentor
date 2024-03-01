@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Title -->
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/tailwind.css">
+  <!-- JavaScript -->
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="person-con my-16">
+      <div
+        class="person-box flex flex-col relative gap-8 items-center justify-center lg:flex-row-reverse lg:items-center lg:justify-center lg:min-h-[45rem]">
+        <img src="./images/pattern-bg.svg" alt="patter-bg" class="absolute z-[-1] lg:right-0 lg:top-0">
+        <div class="relative w-[79%] lg:w-auto my-9 flex justify-center lg:absolute lg:right-20 lg:top-7">
+          <div class="rounded overflow-hidden">
+            <img src="./images/image-tanya.jpg" alt="person-img">
+          </div>
+          <div
+            class="flex py-3 px-4 rounded-full gap-8 bg-white justify-between items-center absolute bottom-[-1.4rem] translate-x-[-50%] left-[50%] lg:translate-x-[-18%] lg:left-[18%] shadow-2xl shadow-slate-700">
+            <button class="prev-img-btn">
+              <img class="cursor-pointer" src="./images/icon-prev.svg" alt="icon-prev">
+            </button>
+            <button class="next-img-btn">
+              <img class="cursor-pointer" src="./images/icon-next.svg" alt="icon-next">
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col gap-8">
+          <p class="text-center lg:text-left relative  text-clr-primary-1 lg:w-[55%]">
+            <img
+              class="absolute translate-x-[-50%] left-[50%] top-[-35%] scale-[.6] lg:left-[17%] lg:translate-x-[-17%] lg:scale-100 lg:top-[-4rem]"
+              src="./images/pattern-quotes.svg" alt="quotes">
+            “ I’ve been interested in coding for a while but never taken the jump, until now.
+            I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+            excited about the future. ”
+          </p>
+          <div class="flex flex-col gap-[4px] text-center fs-700 lg:flex-row lg:gap-4">
+            <h1 class="font-bold text-clr-primary-1">Tanya Sinclair</h1>
+            <h2 class="font-medium text-clr-primary-2">UX Engineer</h2>
+          </div>
+        </div>
+      </div>
+      <div
+        class="person-box hidden flex flex-col relative gap-8 items-center justify-center lg:flex-row-reverse lg:items-center lg:justify-center lg:min-h-[45rem]">
+        <img src="./images/pattern-bg.svg" alt="patter-bg" class="absolute z-[-1] lg:right-0 lg:top-0">
+        <div class="relative w-[79%] lg:w-auto my-9 flex justify-center lg:absolute lg:right-20 lg:top-7">
+          <div class="rounded overflow-hidden">
+            <img src="./images/image-john.jpg" alt="person-img">
+          </div>
+          <div
+            class="flex py-3 px-4 rounded-full gap-8 bg-white justify-between items-center absolute bottom-[-1.4rem] translate-x-[-50%] left-[50%] lg:translate-x-[-18%] lg:left-[18%] shadow-2xl shadow-slate-700">
+            <button class="prev-img-btn">
+              <img class="cursor-pointer" src="./images/icon-prev.svg" alt="icon-prev">
+            </button>
+            <button class="next-img-btn">
+              <img class="cursor-pointer" src="./images/icon-next.svg" alt="icon-next">
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col gap-8">
+          <p class="text-center lg:text-left relative  text-clr-primary-1 lg:w-[55%]">
+            <img
+              class="absolute translate-x-[-50%] left-[50%] top-[-35%] scale-[.6] lg:left-[17%] lg:translate-x-[-17%] lg:scale-100 lg:top-[-4rem]"
+              src="./images/pattern-quotes.svg" alt="quotes">
+            “ If you want to lay the best foundation possible I’d recommend taking this course.
+            The depth the instructors go into is incredible. I now feel so confident about
+            starting up as a professional developer. ”
+          </p>
+          <div class="flex flex-col gap-[4px] text-center fs-700 lg:flex-row lg:gap-4">
+            <h1 class="font-bold text-clr-primary-1">John Tarkpor</h1>
+            <h2 class="font-medium text-clr-primary-2">Junior Front-end Developer</h2>
+          </div>
+        </div>
+      </div>
+      <div
+        class="person-box hidden flex flex-col relative gap-8 items-center justify-center lg:flex-row-reverse lg:items-center lg:justify-center lg:min-h-[45rem]">
+        <img src="./images/pattern-bg.svg" alt="patter-bg" class="absolute z-[-1] lg:right-0 lg:top-0">
+        <div class="relative w-[79%] lg:w-auto my-9 flex justify-center lg:absolute lg:right-20 lg:top-7">
+          <div class="rounded overflow-hidden">
+            <img src="./images/image-adrian.jpg" alt="person-img">
+          </div>
+          <div
+            class="flex py-3 px-4 rounded-full gap-8 bg-white justify-between items-center absolute bottom-[-1.4rem] translate-x-[-50%] left-[50%] lg:translate-x-[-18%] lg:left-[18%] shadow-2xl shadow-slate-700">
+            <button class="prev-img-btn">
+              <img class="cursor-pointer" src="./images/icon-prev.svg" alt="icon-prev">
+            </button>
+            <button class="next-img-btn">
+              <img class="cursor-pointer" src="./images/icon-next.svg" alt="icon-next">
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col gap-8">
+          <p class="text-center lg:text-left relative  text-clr-primary-1 lg:w-[55%]">
+            <img
+              class="absolute translate-x-[-50%] left-[50%] top-[-35%] scale-[.6] lg:left-[17%] lg:translate-x-[-17%] lg:scale-100 lg:top-[-4rem]"
+              src="./images/pattern-quotes.svg" alt="quotes">
+            “ If you want to lay the best foundation possible I’d recommend taking this course.
+            The depth the instructors go into is incredible. I now feel so confident about
+            starting up as a professional developer. ”
+          </p>
+          <div class="flex flex-col gap-[4px] text-center fs-700 lg:flex-row lg:gap-4">
+            <h1 class="font-bold text-clr-primary-1">Adrián Chlebovec</h1>
+            <h2 class="font-medium text-clr-primary-2">Junior Front-end Developer</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
